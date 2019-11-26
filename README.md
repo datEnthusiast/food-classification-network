@@ -30,3 +30,8 @@ mkdir data; kaggle competitions download -c food-recognition-challenge; unzip fo
 
 - run smaller models locally on your CPU or GoogleCollab to test performance of your model.
 - once models have been developed and work, commit your model to `/models` folder and it can be run on full dataset using `V100` GPU on Google Compute Engine.
+
+## development environment
+
+- you can run a jupyter-notebook inside your virtual environment as specified by this [guide](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/)
+- download data and run it inside a kaggle kernel and make use of their free GPU resources (requires phone verification).
