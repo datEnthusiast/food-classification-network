@@ -6,6 +6,8 @@
  
 - Download the data either directly from the site or use the Kaggle API.
 
+- run data formatting script to create a structured training set directory with unique label named subdirectories containing examples of that class.
+
 ```
 # make virtual environment
 python3 -m venv env
@@ -23,6 +25,9 @@ mv kaggle.json home/<your username>/.kaggle
 
 # make /data folder, download data from kaggle and unzip it
 mkdir data; kaggle competitions download -c food-recognition-challenge; unzip food-recognition-challenge.zip;
+
+# run the data formatting script
+python data_formatter.py
 
 ```
 
